@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StudioDev | Soluciones Digitales Inteligentes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">StudioDev</h1>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#pricing">Precios</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Impulsamos tu negocio con tecnología e inteligencia artificial</h2>
+      <p>Diseño web, apps móviles, automatizaciones y soluciones digitales adaptadas a tu empresa.</p>
+      <a href="#contact" class="btn">Contáctanos</a>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <div class="container">
+      <h3>Servicios</h3>
+      <ul class="grid-3">
+        <li><strong>Web profesional</strong><br>Desarrollo de sitios modernos, rápidos y responsivos.</li>
+        <li><strong>Aplicaciones móviles</strong><br>Apps Android e iOS a medida para tu negocio.</li>
+        <li><strong>Automatización con IA</strong><br>Respuestas automáticas, reservas y más.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="pricing" class="section alt">
+    <div class="container">
+      <h3>Planes y Precios</h3>
+      <ul class="grid-3">
+        <li><strong>Starter</strong><br>Web + Dominio<br><em>89€/mes</em></li>
+        <li><strong>Pro</strong><br>Web + IA + Reservas<br><em>149€/mes</em></li>
+        <li><strong>Full Boost</strong><br>App + Web + IA + Soporte<br><em>299€/mes</em></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h3>Contacto</h3>
+      <p>¿Listo para digitalizar tu negocio? Escríbenos a:</p>
+      <a href="mailto:contacto@studiodev.se" class="btn">contacto@studiodev.se</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 StudioDev. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const links = document.querySelector(".nav-links");
+      links.classList.toggle("show");
+    }
+  </script>
+</body>
+</html>
